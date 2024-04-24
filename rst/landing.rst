@@ -5,7 +5,7 @@
 
 |
 
-Neural MMO is a computationally accessible, open-source research platform that simulates populations of agents in virtual worlds. We challenge you to train agents to complete *tasks they have never seen before against opponents they have never seen before on maps they have never seen before*. Our objective is to spur research on increasingly general and cognitively realistic environments.
+NMMO is an open-source research platform that simulates populations of agents in virtual worlds. We challenge you to train agents that generalize to tasks, opponents, and maps never seen during training. Our objective is to spur research on increasingly general and cognitively realistic environments.
 
 .. card::
   :link: https://neuralmmo.github.io/client
@@ -17,7 +17,7 @@ Neural MMO is a computationally accessible, open-source research platform that s
 
 |
 
-.. figure:: /resource/poster.png
+.. figure:: /resource/poster.jpg
 
 .. grid:: 3
 
