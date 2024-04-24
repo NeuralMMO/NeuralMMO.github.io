@@ -3,9 +3,7 @@
 .. role:: python(code)
     :language: python
 
-|
-
-Neural MMO is a computationally accessible, open-source research platform that simulates populations of agents in virtual worlds. We challenge you to train agents to complete *tasks they have never seen before against opponents they have never seen before on maps they have never seen before*. Our objective is to spur research on increasingly general and cognitively realistic environments.
+.. figure:: /resource/poster.jpg
 
 .. card::
   :link: https://neuralmmo.github.io/client
@@ -15,49 +13,29 @@ Neural MMO is a computationally accessible, open-source research platform that s
 
   **Click to Demo Neural MMO in your browser**
 
+.. raw:: html
+
+    <div style="text-align: center;">
+        <div style="display: flex; align-items: center; justify-content: center; margin: auto;">
+            <div style="flex-shrink: 0; width: 60px; margin-right: 20px;">
+                <a href="https://github.com/pufferai/pufferlib" target="_blank">
+                    <img src="https://img.shields.io/github/stars/pufferai/pufferlib?labelColor=999999&color=66dcdc&cacheSeconds=100000" alt="Star pufferai/pufferlib" width="60px">
+                </a>
+            </div>
+            <a href="https://discord.gg/puffer" target="_blank" style="margin-right: 20px;">
+                <img src="https://dcbadge.vercel.app/api/server/puffer?style=plastic" alt="Discord">
+            </a>
+            <a href="https://twitter.com/jsuarez5341" target="_blank">
+                <img src="https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40jsuarez5341" alt="Twitter">
+            </a>
+        </div>
+    </div>
+
 |
 
-.. figure:: /resource/poster.png
+NMMO is an open-source research platform that simulates populations of agents in virtual worlds. We challenge you to train agents that generalize to tasks, opponents, and maps never seen during training. Our objective is to spur research on increasingly general and cognitively realistic environments.
 
-.. grid:: 3
-
-    .. grid-item-card::  Competition
-      :link: https://www.aicrowd.com/search?utf8=%E2%9C%93&q=neural+mmo
-
-      Compete for $20,000 in prizes at NeurIPS 2023
- 
-    .. grid-item-card::  Baselines
-      :link: https://wandb.ai/jsuarez/NeuralMMO/reportlist
-
-      Training curves and metrics on WandB
-
-    .. grid-item-card::  Paper
-      :link: https://datasets-benchmarks-proceedings.neurips.cc/paper/2021/hash/44f683a84163b3523afe57c2e008bc8c-Abstract-round1.html
-
-      Read our NeurIPS 2021 Datasets paper
-
-.. grid:: 3
-
-    .. grid-item-card::  Discord
-      :link: https://discord.gg/BkMmFUC
-
-      Join our community for support and discussion
-
-    .. grid-item-card::  Github
-      :link: https://github.com/neuralmmo
-
-      Neural MMO is free and open-source software
-
-    .. grid-item-card::  Twitter
-      :link: https://twitter.com/jsuarez5341
-
-      Follow the creator on Twitter
-
-Your Agents must collect food and water to survive. Each Agent has 8 individual professions to help them collect resources. Agents can level up their skills in each profession.
-
-Resources can be used to create consumable items that restore food, water and heath as well as to create ammunition that increases damage in combat. Higher level resources create better consumables and ammunition. Agents can also trade items on a global market.
-
-Agents may aquire armor to protect themselves in combat and weapons to increase their damage output. Agents can attack each other using one of three styles: Melee, Range, and Magic. The world is populated by NPCs that can be defeated to obtain items and increase power.
+Your Agents must collect food and water to survive. Each Agent has 8 individual professions to help them collect resources. Agents can level up their skills in each profession. Resources can be used to create consumable items that restore food, water and heath as well as to create ammunition that increases damage in combat. Higher level resources create better consumables and ammunition. Agents can also trade items on a global market. Agents may aquire armor to protect themselves in combat and weapons to increase their damage output. Agents can attack each other using one of three styles: Melee, Range, and Magic. The world is populated by NPCs that can be defeated to obtain items and increase power.
 
 .. tab-set:: 
    
@@ -162,6 +140,18 @@ Agents may aquire armor to protect themselves in combat and weapons to increase 
 
    .. code-block:: text
 
+      @inproceedings{nmmo2_neurips,
+         author = {Suarez, Joseph and Choe, Kyoung Whan and Bloomin, David and Li, Hao Xiang and Pinnaparaju, Nikhil and Kanna, Nishaanth and Scott, Daniel and Sullivan, Ryan and Shuman, Rose and de Alcantara, Lucas and Bradley, Herbie and Yu, Chenghui and Jiang, Yuhao and Li, Qimai and Chen, Jiaxin and Zhu, Xiaolong and Castricato, Louis, and Isola, Phillip},
+         booktitle = {Advances in Neural Information Processing Systems},
+         editor = {A. Oh and T. Neumann and A. Globerson and K. Saenko and M. Hardt and S. Levine},
+         pages = {50094--50104},
+         publisher = {Curran Associates, Inc.},
+         title = {Neural MMO 2.0: A Massively Multi-task Addition to Massively Multi-agent Learning},
+         url = {https://proceedings.neurips.cc/paper_files/paper/2023/file/9ca22870ae0ba55ee50ce3e2d269e5de-Paper-Datasets_and_Benchmarks.pdf},
+         volume = {36},
+         year = {2023}
+      }
+
       @inproceedings{nmmo_neurips,
          author = {Suarez, Joseph and Du, Yilun and Zhu, Clare and Mordatch, Igor and Isola, Phillip},
          booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},
@@ -235,7 +225,7 @@ Neural MMO provides a standard PettingZoo interface:
 |icon| 2023 Competition
 #######################
 
-Successfully complete the most tasks to win! At stake are $20,000 in prizes sponsored by Parametrix.ai. If the `[AICrowd page] <https://www.aicrowd.com/challenges/neurips-2023-the-neural-mmo-challenge>`_ is up, the competition is live! Ends in December.
+Successfully complete the most tasks to win! At stake are $20,000 in prizes sponsored by Puffer AI. Now completed. Hosted on `[AICrowd page] <https://www.aicrowd.com/challenges/neurips-2023-the-neural-mmo-challenge>`_ October 20 - December 15, 2023. Cowon by NetEase Games OPD (Jianming Gao, Yunkun Li, Zhaohao Liang, Jin Gao - team name Takeru) and Yao Feng (participant name yaofeng1998). Third place awarded to Saidinesh Pola. Fourth and fifth jointly shared by Zhang Kun (mori) and Yonghui Zhu (Jimyhzhu). Winning submissions now open sourced in the Neural MMO baselines repository. Evaluation servers are no longer enabled, but you may use the setup instructions below for primary research on Neural MMO, evaluating locally.
 
 Neural MMO (NMMO) has three tracks to compete and win. In all tracks, the objective is for your 8 agents to accomplish more tasks than 120 other opponent. Your submission will be evaluated over thousands of rounds with increasingly difficult tasks. Lobbies are made by a matchmaking algorithm that selects 16 teams of similar skill level. The RL and curriculum tracks are compute-limited: we will verify that winners' solutions can be trained in 8 A100 hours with 12 cores.
 
