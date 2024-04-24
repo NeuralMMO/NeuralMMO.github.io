@@ -18,12 +18,12 @@
     <div style="text-align: center;">
         <div style="display: flex; align-items: center; justify-content: center; margin: auto;">
             <div style="flex-shrink: 0; width: 60px; margin-right: 20px;">
-                <a href="https://github.com/pufferai/pufferlib" target="_blank">
-                    <img src="https://img.shields.io/github/stars/pufferai/pufferlib?labelColor=999999&color=66dcdc&cacheSeconds=100000" alt="Star pufferai/pufferlib" width="60px">
+                <a href="https://github.com/neuralmmo" target="_blank">
+                    <img src="https://img.shields.io/github/stars/neuralmmo?labelColor=999999&color=66dcdc&cacheSeconds=100000" alt="Star Neural MMO" width="60px">
                 </a>
             </div>
-            <a href="https://discord.gg/puffer" target="_blank" style="margin-right: 20px;">
-                <img src="https://dcbadge.vercel.app/api/server/puffer?style=plastic" alt="Discord">
+            <a href="https://discord.gg/BkMmFUC" target="_blank" style="margin-right: 20px;">
+                <img src="https://dcbadge.vercel.app/api/server/V2EAstUaRF?style=plastic" alt="Discord">
             </a>
             <a href="https://twitter.com/jsuarez5341" target="_blank">
                 <img src="https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40jsuarez5341" alt="Twitter">
